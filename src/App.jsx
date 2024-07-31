@@ -7,6 +7,7 @@ import Products from "./components/Products/Products";
 import Customers from "./components/Customers/Customers";
 import Blog from "./components/Blogs/Blog";
 import Footer from "./components/Footer";
+import Demo from "./components/Demo/DemoSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Products />
       <Customers />
       <Blog />
+      <Demo />
       <Footer />
     </>
   );

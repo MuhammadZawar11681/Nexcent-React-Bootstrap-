@@ -1,5 +1,3 @@
-import white_arrow from "../assets/arrow-right-white.svg";
-
 import logo from "../assets/footer-logo.svg";
 import brand from "../assets/Nexcent-white.svg";
 import share from "../assets/share.svg";
@@ -11,18 +9,6 @@ import youtube from "../assets/youtube.svg";
 const Footer = () => {
   return (
     <div>
-      {/* ******** Demo *********** */}
-      <div className="background-light py-4  d-flex flex-column justify-content-center gap-3">
-        <h1 className="text-center text-black">
-          Pellentesque suscipit <br />
-          fringilla libero eu.
-        </h1>
-        <button className="border-0 rounded background-green text-white px-4 py-2 mx-auto">
-          Get Demo <img src={white_arrow} alt="Arrow" />
-        </button>
-      </div>
-
-      {/* ******** Footer ******** */}
       <div className="background-black py-5 ">
         <div className="container d-flex flex-column flex-md-row  ">
           <div className="me-5 me-sm-0 mb-5 mb-md-0 ms-4 ms-md-0 pe-5 pe-sm-0 d-flex flex-column justify-content-between">
@@ -87,3 +73,126 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// import React from "react";
+// import logo from "../assets/footer-logo.svg";
+// import brand from "../assets/Nexcent-white.svg";
+// import share from "../assets/share.svg";
+// import instagram from "../assets/insta.svg";
+// import website from "../assets/website.svg";
+// import twitter from "../assets/twitter.svg";
+// import youtube from "../assets/youtube.svg";
+
+// const Footer = () => {
+//   return (
+//     <footer className="background-dark py-5">
+//       <div className="container d-flex flex-column flex-md-row">
+//         {/* Logo and Copyright Section */}
+//         <div className="me-5 me-sm-0 mb-5 mb-md-0 ms-4 ms-md-0 pe-5 pe-sm-0 d-flex flex-column justify-content-between">
+//           <div className="d-flex align-items-center mb-4">
+//             <img src={logo} alt="LOGO" className="me-2" />
+//             <img src={brand} alt="BRAND" />
+//           </div>
+//           <div>
+//             <p className="text-light my-2">
+//               © 2020 Nexcent Ltd. All rights reserved.
+//             </p>
+//           </div>
+//           <div className="d-flex gap-3">
+//             <a href="#" aria-label="Instagram" className="footer-icon">
+//               <img src={instagram} alt="Instagram" />
+//             </a>
+//             <a href="#" aria-label="Website" className="footer-icon">
+//               <img src={website} alt="Website" />
+//             </a>
+//             <a href="#" aria-label="Twitter" className="footer-icon">
+//               <img src={twitter} alt="Twitter" />
+//             </a>
+//             <a href="#" aria-label="YouTube" className="footer-icon">
+//               <img src={youtube} alt="YouTube" />
+//             </a>
+//           </div>
+//         </div>
+
+//         {/* Links Section */}
+//         <div className="d-flex flex-column flex-md-row justify-content-center gap-5 gap-sm-2 gap-lg-5 flex-grow-1 ms-4 ms-md-3 ms-lg-5">
+//           <div className="mx-0 mx-md-5">
+//             <ul className="text-light d-flex flex-column gap-2 list-unstyled">
+//               <li className="fw-bold fs-5 text-white">Company</li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   About Us
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Blog
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Contact Us
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Pricing
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Testimonials
+//                 </a>
+//               </li>
+//             </ul>
+//           </div>
+//           <div className="me-5 ms-md-0">
+//             <ul className="text-light d-flex flex-column gap-2 list-unstyled">
+//               <li className="fw-bold fs-5 text-white">Support</li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Help Center
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Terms of Service
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Legal
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Privacy Policy
+//                 </a>
+//               </li>
+//               <li>
+//                 <a href="#" className="footer-link">
+//                   Status
+//                 </a>
+//               </li>
+//             </ul>
+//           </div>
+//           <div className="subscribe-section">
+//             <p className="text-white fw-bold fs-5 mb-3">Stay Up to Date</p>
+//             <div className="bg-light p-2 rounded d-flex justify-content-between align-items-center">
+//               <input
+//                 className="border-0 p-2 flex-grow-1"
+//                 placeholder="Your email address"
+//                 type="email"
+//               />
+//               <button className="border-0 bg-green text-white p-2 rounded ms-2">
+//                 <img src={share} alt="Share" />
+//               </button>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// };
+
+// export default Footer;
