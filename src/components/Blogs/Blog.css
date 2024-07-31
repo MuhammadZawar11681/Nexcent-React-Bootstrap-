@@ -1,0 +1,53 @@
+.blog-post {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: visible;
+}
+
+.blog-post:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-wrapper {
+  position: relative;
+  overflow: visible;
+}
+
+.card-body {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  bottom: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+}
+
+.card-body:hover {
+  transform: translate(-50%, -5%);
+}
+
+.card-text {
+  font-size: 14px; /* Decreased font size */
+  margin-bottom: 1px;
+}
+
+.btn-light {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px; /* Decreased font size */
+  padding: 0.5rem 1rem; /* Adjusted padding */
+}
+
+.btn-light:hover {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    bottom: 10%;
+  }
+}
