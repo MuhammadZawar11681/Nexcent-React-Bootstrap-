@@ -1,17 +1,3 @@
-// import React from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
-
-// const Footer = () => {
-//   return (
-//     <footer className="bg-light text-center py-3">
-//       <p className="mb-0">
-//         &copy; {new Date().getFullYear()} Your Name. All rights reserved.
-//       </p>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
 import React from "react";
 import { Container } from "react-bootstrap";
 
