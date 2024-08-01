@@ -13,7 +13,7 @@
   overflow: visible;
 }
 
-/* .card-body {
+.card-body-blog {
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 55px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,11 +22,11 @@
   left: 50%;
   transform: translateX(-50%);
   width: 85%;
-} */
+}
 
-/* .card-body:hover {
+.card-body-blog:hover {
   transform: translate(-50%, -5%);
-} */
+}
 
 .card-text {
   font-size: 14px; /* Decreased font size */
