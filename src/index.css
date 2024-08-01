@@ -3,16 +3,15 @@ body {
 }
 
 .background-light {
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 
 .background-tint {
-  background-color: #E8F5E9;
-
+  background-color: #e8f5e9;
 }
 
 .background-green {
-  background-color: #4CAF4F;
+  background-color: #4caf4f;
 }
 
 .background-black {
@@ -20,15 +19,12 @@ body {
 }
 
 .text-green {
-  color: #4CAF4F;
+  color: #4caf4f;
 }
 
 .text-dark-grey {
-  color: #4D4D4D;
-
+  color: #4d4d4d;
 }
-
-
 
 .text-grey {
   color: #717171;
@@ -36,9 +32,7 @@ body {
 
 .text-black {
   color: #263238;
-
 }
-
 
 .alternate-rounded-border {
   border-radius: 10px 5px 18px;
@@ -54,23 +48,18 @@ body {
   display: none !important;
 }
 
-
-
 .paragraph-center {
   max-width: 600px;
-
 }
-
 
 .slider-button {
   width: 15px !important;
   height: 15px !important;
   border-radius: 50% !important;
-  background-color: #4CAF4F !important;
+  background-color: #4caf4f !important;
 }
 
 ::placeholder,
 .text-silver {
-  color: #F5F7FA;
-
+  color: #f5f7fa;
 }

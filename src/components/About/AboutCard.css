@@ -1,0 +1,22 @@
+.about-card-view {
+    margin: 100px;
+    max-width: 100%; 
+    padding-left: 100px;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0px;
+  }
+  
+  .about-activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-activity .im {
+    margin-right: 10px;
+  }
+  

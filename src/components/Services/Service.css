@@ -1,0 +1,30 @@
+.service-section {
+  background-color: #f8f9fa;
+  padding-top: 10%;
+}
+
+.project-heading {
+  font-size: 2.5rem;
+}
+
+.project-card-view {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card-view:hover {
+  transform: translateY(-10px);
+}
+
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
